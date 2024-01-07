@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/fragmentMenjars"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/baseline_bakery_dining_24"
+        android:title="Menjars" />
+    <item
+        android:id="@+id/fragmentBegudes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/baseline_local_drink_24"
+        android:title="Begudes" />
+    <item
+        android:id="@+id/fragmentPagament"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/baseline_payment_24"
+        android:title="Pagament" />
+</menu>
