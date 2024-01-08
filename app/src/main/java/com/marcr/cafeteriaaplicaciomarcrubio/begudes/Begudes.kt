@@ -1,4 +1,4 @@
-package com.marcr.tutorial_recycler
+package com.marcr.cafeteriaaplicaciomarcrubio.begudes
 
 class Begudes(val nomBegudes:String,
               val preu: Double,

@@ -4,8 +4,7 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.marcr.cafeteriaaplicaciomarcrubio.R
-import com.marcr.tutorial_recycler.Begudes
-import com.marcr.tutorial_recycler.Menjar
+import com.marcr.cafeteriaaplicaciomarcrubio.begudes.Begudes
 
 class BegudesAdapter(private val begudesList:List<Begudes>) :RecyclerView.Adapter<BegudesViewHolder>(){
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): BegudesViewHolder {

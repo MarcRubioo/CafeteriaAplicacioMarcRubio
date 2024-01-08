@@ -16,12 +16,12 @@
             android:name=".ActivityFrgaments"
             android:exported="false" />
         <activity
-            android:name=".RegistreAct"
+            android:name=".registre.RegistreAct"
             android:exported="false"
             android:label="@string/title_activity_registre"
             android:theme="@style/Theme.CafeteriaAplicacioMarcRubio" />
         <activity
-            android:name=".LoginAct"
+            android:name=".login.LoginAct"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -1,14 +1,13 @@
-package com.marcr.cafeteriaaplicaciomarcrubio
+package com.marcr.cafeteriaaplicaciomarcrubio.registre
 
-import ActvLoginViewModel
-import ActvRegistreViewModel
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
 import androidx.activity.viewModels
-import com.marcr.cafeteriaaplicaciomarcrubio.databinding.ActivityMainBinding
+import com.marcr.cafeteriaaplicaciomarcrubio.R
 import com.marcr.cafeteriaaplicaciomarcrubio.databinding.ActivityRegistreBinding
+import com.marcr.cafeteriaaplicaciomarcrubio.login.LoginAct
 
 class RegistreAct : AppCompatActivity() {
 

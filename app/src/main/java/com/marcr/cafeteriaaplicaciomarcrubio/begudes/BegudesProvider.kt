@@ -1,4 +1,6 @@
-package com.marcr.tutorial_recycler
+package com.marcr.cafeteriaaplicaciomarcrubio.begudes
+
+import com.marcr.cafeteriaaplicaciomarcrubio.begudes.Begudes
 
 class BegudesProvider {
     companion object{

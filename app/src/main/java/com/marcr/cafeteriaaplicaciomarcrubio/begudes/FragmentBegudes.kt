@@ -1,4 +1,4 @@
-package com.marcr.cafeteriaaplicaciomarcrubio
+package com.marcr.cafeteriaaplicaciomarcrubio.begudes
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -8,11 +8,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.marcr.cafeteriaaplicaciomarcrubio.databinding.FragmentBegudesBinding
-import com.marcr.cafeteriaaplicaciomarcrubio.databinding.FragmentMenjarsBinding
-import com.marcr.tutorial_recycler.BegudesProvider
-import com.marcr.tutorial_recycler.MenjarProvider
 import com.marcr.tutorial_recycler.adapter.BegudesAdapter
-import com.marcr.tutorial_recycler.adapter.MenjarsAdapter
 
 class FragmentBegudes : Fragment() {
     private lateinit var binding: FragmentBegudesBinding

@@ -1,10 +1,11 @@
-package com.marcr.cafeteriaaplicaciomarcrubio
+package com.marcr.cafeteriaaplicaciomarcrubio.pagament
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.marcr.cafeteriaaplicaciomarcrubio.R
 
 class FragmentPagament : Fragment() {
 

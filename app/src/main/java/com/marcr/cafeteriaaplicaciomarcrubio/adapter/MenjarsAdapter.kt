@@ -4,7 +4,7 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.marcr.cafeteriaaplicaciomarcrubio.R
-import com.marcr.tutorial_recycler.Menjar
+import com.marcr.cafeteriaaplicaciomarcrubio.menjar.Menjar
 
 class MenjarsAdapter(private val menjarList:List<Menjar>) :RecyclerView.Adapter<MenjarsViewHolder>(){
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MenjarsViewHolder {

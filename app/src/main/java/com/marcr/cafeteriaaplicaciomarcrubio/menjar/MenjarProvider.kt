@@ -1,4 +1,6 @@
-package com.marcr.tutorial_recycler
+package com.marcr.cafeteriaaplicaciomarcrubio.menjar
+
+import com.marcr.cafeteriaaplicaciomarcrubio.menjar.Menjar
 
 class MenjarProvider {
     companion object{

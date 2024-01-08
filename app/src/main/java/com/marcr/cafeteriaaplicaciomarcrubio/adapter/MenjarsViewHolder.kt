@@ -6,7 +6,7 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.marcr.cafeteriaaplicaciomarcrubio.R
-import com.marcr.tutorial_recycler.Menjar
+import com.marcr.cafeteriaaplicaciomarcrubio.menjar.Menjar
 
 class MenjarsViewHolder (view: View):RecyclerView.ViewHolder(view){
 

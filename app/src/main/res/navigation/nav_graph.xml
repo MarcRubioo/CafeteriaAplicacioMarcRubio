@@ -6,17 +6,17 @@
     app:startDestination="@id/fragmentMenjars">
     <fragment
         android:id="@+id/fragmentMenjars"
-        android:name="com.marcr.cafeteriaaplicaciomarcrubio.FragmentMenjars"
+        android:name="com.marcr.cafeteriaaplicaciomarcrubio.menjar.FragmentMenjars"
         android:label="fragment_menjars"
         tools:layout="@layout/fragment_menjars" />
     <fragment
         android:id="@+id/fragmentBegudes"
-        android:name="com.marcr.cafeteriaaplicaciomarcrubio.FragmentBegudes"
+        android:name="com.marcr.cafeteriaaplicaciomarcrubio.begudes.FragmentBegudes"
         android:label="fragment_begudes"
         tools:layout="@layout/fragment_begudes" />
     <fragment
         android:id="@+id/fragmentPagament"
-        android:name="com.marcr.cafeteriaaplicaciomarcrubio.FragmentPagament"
+        android:name="com.marcr.cafeteriaaplicaciomarcrubio.pagament.FragmentPagament"
         android:label="fragment_pagament"
         tools:layout="@layout/fragment_pagament" />
 </navigation>

@@ -6,7 +6,7 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.marcr.cafeteriaaplicaciomarcrubio.R
-import com.marcr.tutorial_recycler.Begudes
+import com.marcr.cafeteriaaplicaciomarcrubio.begudes.Begudes
 
 class BegudesViewHolder (view: View):RecyclerView.ViewHolder(view){
 
