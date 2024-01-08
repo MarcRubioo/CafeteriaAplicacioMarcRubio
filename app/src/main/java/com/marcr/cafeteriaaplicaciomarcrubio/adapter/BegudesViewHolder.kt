@@ -17,7 +17,7 @@ class BegudesViewHolder (view: View):RecyclerView.ViewHolder(view){
 
     fun render(begudesModel: Begudes){
         nomBeguda.text = begudesModel.nomBegudes
-        preuBeguda.text = begudesModel.preu.toString()
+        preuBeguda.text = begudesModel.preu.toString()+ " €"
         Glide.with(photo.context).load(begudesModel.photo).into(photo)
 
     }

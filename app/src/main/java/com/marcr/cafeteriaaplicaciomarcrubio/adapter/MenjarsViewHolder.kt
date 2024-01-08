@@ -17,7 +17,7 @@ class MenjarsViewHolder (view: View):RecyclerView.ViewHolder(view){
 
     fun render(menjarModel: Menjar){
         nomMenjar.text = menjarModel.nomMenjar
-        preuMenjar.text = menjarModel.preu.toString()
+        preuMenjar.text = menjarModel.preu.toString() + " €"
         Glide.with(photo.context).load(menjarModel.photo).into(photo)
 
     }
